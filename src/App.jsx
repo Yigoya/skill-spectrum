@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-    <div className='flex'>
-      <h1 className='text-xs'> hello there  </h1>
-    </div>
+     <div className='flex'>
+     <h1 className='text-xs'>  projject started</h1>
+     </div>
     </>
   )
 }
