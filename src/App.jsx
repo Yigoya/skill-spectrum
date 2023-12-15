@@ -5,6 +5,8 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import AboutUs from './AboutUs'
+import Facilities from './Facilities'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,7 @@ function App() {
     <>
       <Header />
       <AboutUs />
+      <Facilities />
       <Footer />
     </>
   )
