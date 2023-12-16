@@ -11,7 +11,7 @@ function Courses() {
       instractor:'Mark anthem',
       poeple:30,
       like:10,
-      img:'cu-3.jpg',
+      img:'https://thepixelcurve.com/html/edubin/images/course/cu-1.jpg',
       profile:'https://thepixelcurve.com/html/edubin/images/course/teacher/t-4.jpg'
     },
     {
@@ -20,7 +20,7 @@ function Courses() {
       instractor:'Mark anthem',
       poeple:30,
       like:10,
-      img:'cu-4.jpg',
+      img:'https://thepixelcurve.com/html/edubin/images/course/cu-4.jpg',
       profile:'https://thepixelcurve.com/html/edubin/images/course/teacher/t-2.jpg'
     },
     {
@@ -29,7 +29,7 @@ function Courses() {
       instractor:'Mark anthem',
       poeple:30,
       like:10,
-      img:'cu-5.jpg',
+      img:'https://thepixelcurve.com/html/edubin/images/course/cu-3.jpg',
       profile:'https://thepixelcurve.com/html/edubin/images/course/teacher/t-4.jpg'
     },
     {
@@ -38,12 +38,12 @@ function Courses() {
       instractor:'Mark anthem',
       poeple:30,
       like:10,
-      img:'cu-4.jpg',
-      profile:'https://thepixelcurve.com/html/edubin/images/course/teacher/t-2.jpg'
+      img:'https://thepixelcurve.com/html/edubin/images/course/cu-1.jpg',
+      profile:'https://thepixelcurve.com/html/edubin/images/course/teacher/t-3.jpg'
     },
   ]
   return (
-    <div className='bg-gray-200 flex flex-col items-center pt-12'>
+    <div className='bg-gray-200 flex flex-col items-center py-20'>
       <div className=' flex flex-col '>
         <p className='font-bold w-full'>Our course</p>
         <hr className='border-yellow-500 w-8 my-2' />

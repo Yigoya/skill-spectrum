@@ -5,10 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    minWidth: {
-      '1/2': '50%',
-      
-    },
     extend: {
       width:{
         '700':'700px'

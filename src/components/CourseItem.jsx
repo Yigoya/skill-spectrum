@@ -1,5 +1,4 @@
 import React from 'react'
-import image1 from '../assets/cu-3.jpg'
 import { Star } from '@mui/icons-material';
 function CourseItem({data,start,setStart}) {
     if(start+3>data.length || start<0){
@@ -13,7 +12,7 @@ function CourseItem({data,start,setStart}) {
             data.map((item,index)=>(
             <div key={index} className='bg-white rounded-lg w-96'>
                     <div className='relative'>
-                        <img className='pb-8 w-full rounded-lg' src={image1} alt="" />
+                        <img className='pb-8 w-full rounded-lg' src={item.img} alt="" />
                         <p className='absolute bottom-0 right-8 font-bold bg-yellow-200 rounded-full  px-4 py-5'>Free</p>
                     </div>
             

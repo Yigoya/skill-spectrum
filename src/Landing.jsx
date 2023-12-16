@@ -17,9 +17,7 @@ function Landing() {
   return (
     <div className='landing'>
       <SlideContainer data={data}/>
-      <div className='platform'>
-        rtwertretre
-      </div>
+
     </div>
   )
 }
