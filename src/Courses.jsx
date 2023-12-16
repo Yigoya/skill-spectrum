@@ -4,7 +4,6 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import CourseItem from './components/CourseItem';
 function Courses() {
   const [count, setCount] = useState(0)
-  console.log('first')
   const data = [
     {
       title:'learn basic react from start for beginner',

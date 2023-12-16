@@ -15,9 +15,11 @@ function Landing() {
     },
   ]
   return (
-    <div className='relative'>
+    <div className='landing'>
       <SlideContainer data={data}/>
-
+      <div className='platform'>
+        rtwertretre
+      </div>
     </div>
   )
 }

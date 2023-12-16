@@ -8,7 +8,6 @@ function SlideContainer({data}) {
   setInterval(()=>{
     setCount(count<data.length-1 ? count+1:0)
   },10000)
-  console.log(count)
   return (
     <div className='contaner'>
       <div className='slidebtn'>

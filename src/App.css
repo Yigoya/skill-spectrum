@@ -6,3 +6,18 @@
     width: 1220px;
     max-width: 1240px;
 }
+.landing{
+    position: relative;
+    height: 80vh;
+}
+.platform{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    width: 80%;
+    transform:translate(-50%,50%) ;
+
+    height: 100px;
+    background-color: blue;
+    z-index: 10;
+}

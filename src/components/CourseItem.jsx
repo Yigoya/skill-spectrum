@@ -2,13 +2,11 @@ import React from 'react'
 import image1 from '../assets/cu-3.jpg'
 import { Star } from '@mui/icons-material';
 function CourseItem({data,start,setStart}) {
-    const image = React.lazy(() => import('../assets/cu-3.jpg'));
     if(start+3>data.length || start<0){
         setStart(0)
        
     }
     data = data.slice(start,start+3);
-    console.log(start,start+2)
   return (
     <div className='flex flex-row gap-8 justify-center'>
         {
