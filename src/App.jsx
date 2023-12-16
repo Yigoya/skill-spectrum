@@ -5,8 +5,6 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import AboutUs from './AboutUs'
-import Landing from './Landing'
-import Courses from './Courses'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +14,6 @@ function App() {
       <Header />
       <Landing />
       <AboutUs />
-      <Courses />
       <Footer />
     </>
   )
