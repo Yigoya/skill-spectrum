@@ -5,8 +5,8 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import AboutUs from './AboutUs'
-import Facilities from './Facilities'
-
+import Landing from './Landing'
+import Courses from './Courses'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +14,9 @@ function App() {
   return (
     <>
       <Header />
+      <Landing />
       <AboutUs />
-      <Facilities />
+      <Courses />
       <Footer />
     </>
   )

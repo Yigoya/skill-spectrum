@@ -71,10 +71,10 @@ function Footer() {
                     © 2023 <a href="#" className="hover:underline">Skill Spectrum</a>. All Rights Reserved.
                 </span>
                 <div className="flex mt-4 sm:justify-center sm:mt-0 text-white">
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-yellow-500 ms-5"><TelegramIcon /></a>
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-yellow-500 ms-5"><InstagramIcon /></a>
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-yellow-500 ms-5"><FacebookIcon /></a>
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-yellow-500 ms-5"><GitHubIcon /></a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-pink-400 ms-5"><TelegramIcon /></a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-pink-400 ms-5"><InstagramIcon /></a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-pink-400 ms-5"><FacebookIcon /></a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-pink-400 ms-5"><GitHubIcon /></a>
                 </div>
             </div> 
       </div>

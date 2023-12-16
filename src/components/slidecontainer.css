@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+.slidebtn {
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.slidebtn button {
+    border: 2px solid white ;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(0px);
+    transition: all 0.5s;
+}
+.contaner:hover .btn1{
+    opacity: 1;
+    transform: translate(20px);
+}
+
+
+.contaner:hover  .btn2 {
+    opacity: 1;
+    transform: translate(-20px);
+}
+.slidebtn button:hover {
+    background: yellow;
+}
+i {
+    color: rgb(255, 255, 255);
+}
+
+.slideitem {
+    background: teal;
+    animation: slideitem 1s ease-in;
+}
+
+@keyframes slideitem {
+    0%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.slideitem .anime-v{
+    animation: slideinvertical 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+.slideitem .anime-v-1{
+    animation: slideinvertical 1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: both;
+}
+
+.slideitem .anime-h{
+    animation: slideinhorizontal 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+.slideitem  .anime-h-1{
+    animation: slideinhorizontal 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+.slideitem .anime-h-2{
+    animation: slideinhorizontal 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideinhorizontal {
+    0%{
+        transform: translateX(-1100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideinvertical {
+    0%{
+        transform: translateY(1000px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
