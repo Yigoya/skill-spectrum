@@ -6,7 +6,7 @@ function SlideItems({data}) {
       setClassname('slideitem')
       setTimeout(()=>{
         setClassname('')
-      },5000)
+      },3000)
     },[data])
   return (
     

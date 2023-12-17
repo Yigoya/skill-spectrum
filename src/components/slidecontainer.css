@@ -50,6 +50,7 @@ i {
 
 @keyframes slideitem {
     0%{
+        background-color: black;
         opacity: 0.3;
     }
     100%{
