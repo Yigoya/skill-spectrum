@@ -1,15 +1,42 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Star } from '@mui/icons-material';
 function CourseItem({data,start,setStart}) {
     if(start+3>data.length || start<0){
-        setStart(0)
-       
+        setStart(0)  
     }
-    data = data.slice(start,start+3);
+    let subdata = data.slice(start,start+3);
+
+  
+
+    const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+    if(screenSize.width<1250){
+        subdata = data.slice(start,start+2);
+    }
+
+    console.log(screenSize)
+  	function getCurrentDimension(){
+    	return {
+      		width: window.innerWidth,
+      		height: window.innerHeight
+    	}
+  	}
+  
+  	useEffect(() => {
+    		const updateDimension = () => {
+      			setScreenSize(getCurrentDimension())
+    		}
+    		window.addEventListener('resize', updateDimension);
+    
+		
+    		return(() => {
+        		window.removeEventListener('resize', updateDimension);
+    		})
+  	}, [screenSize])
   return (
-    <div className='flex flex-row gap-8 justify-center'>
+    <div className='flex flex-wrap gap-8 justify-center'>
         {
-            data.map((item,index)=>(
+            subdata.map((item,index)=>(
             <div key={index} className='bg-white rounded-lg w-96'>
                     <div className='relative'>
                         <img className='pb-8 w-full rounded-lg' src={item.img} alt="" />
@@ -33,6 +60,7 @@ function CourseItem({data,start,setStart}) {
         </div>
             ))
         }
+        
     </div>
   )
 }

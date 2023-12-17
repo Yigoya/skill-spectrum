@@ -8,7 +8,7 @@ import AboutUs from './AboutUs'
 import Facilities from './Facilities'
 import Landing from './Landing'
 import Courses from './Courses'
-import TestimonialSlider from './TestimonialSlider'
+import Member from './Member'
 
 
 function App() {
@@ -21,7 +21,6 @@ function App() {
       <AboutUs />
       <Courses />
       <Facilities />
-      <TestimonialSlider />
       <Footer />
     </>
   )

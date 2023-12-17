@@ -1,13 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import './slidecontainer.css'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import SlideItems from './SlideItems';
 function SlideContainer({data}) {
   const [count,setCount] = useState(0)
-  setInterval(()=>{
-    setCount(count<data.length-1 ? count+1:0)
-  },10000)
+  useEffect(()=>{
+    const interval = setInterval(()=>{
+      setCount(count<data.length-1 ? count+1:0)
+    },5000)
+    return ()=>clearInterval(interval)
+},[count])
+
   return (
     <div className='contaner'>
       <div className='slidebtn'>

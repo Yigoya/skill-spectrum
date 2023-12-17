@@ -1,10 +1,9 @@
 .min-width{
-    width: 1220px;
+    width: 70px;
     min-width: 300px;
 }
 .max-width {
-    width: 1220px;
-    max-width: 1240px;
+    width: 1200px;
 }
 .landing{
     position: relative;
@@ -20,4 +19,36 @@
     height: 100px;
     background-color: blue;
     z-index: 10;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.services {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1220px;
+    height: 450px;
+    transform: translate(-50%,50%);
+    z-index: 100;
+    background-color:rgb(17, 24, 39);
+    color: white;
+    border-radius: 2rem;
+}
+.services img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.rgba{
+    background-color: rgba(12, 12, 12, 0.8);
+    width: 100%;
+    border-radius: 0 0 0.75rem 0.75rem;
 }
