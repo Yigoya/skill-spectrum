@@ -1,7 +1,7 @@
 import React from 'react'
-import book from "../public/images/book.png"
-import almunai from "../public/images/almunai.png"
-import certificate from "../public/images/certificate.png"
+import book from "/images/book.png"
+import almunai from "/images/almunai.png"
+import certificate from "/images/certificate.png"
 
 
 function Facilities() {

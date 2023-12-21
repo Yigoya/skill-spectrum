@@ -54,20 +54,20 @@ const TestimonialSlider = () => {
             <hr className='border-yellow-500 w-12 border-2 mt-2 mb-4' />
             <h1 className='text-5xl font-bold mb-12'>What they say</h1>
         </div>
-        {/* <div className="flex flex-col items-center w-full transition-transform duration-500 ease-in-out transform">
+        <div className="flex flex-col items-center w-full transition-transform duration-500 ease-in-out transform">
+          <div className='scroll-container'>
+              <div className='scroll-item scroll-container flex md:flex-row'>
+                <div className='scroll-item '>
+                  <Testimonial testimonial={testimonials[currentSlide]} />
+                </div>
 
-          <div className='flex md:flex-row'>
-            <div>
-              <Testimonial testimonial={testimonials[currentSlide]} />
-            </div>
-
-            {hasMultipleTestimonials && (
-              <div className="hidden md:flex">
-                <Testimonial testimonial={testimonials[(currentSlide + 1) % testimonials.length]} />
+                {hasMultipleTestimonials && (
+                  <div className="scroll-item hidden md:flex">
+                    <Testimonial testimonial={testimonials[(currentSlide + 1) % testimonials.length]} />
+                  </div>
+                )}
               </div>
-            )}
-          </div>
-
+            </div>
           <div className='flex gap-2 mb-16'>
             <button onClick={prevSlide} className="text-red-600 hover:text-gray-800">
               o
@@ -76,9 +76,9 @@ const TestimonialSlider = () => {
               o
             </button>
           </div>
-        </div> */}
+        </div>
 
-        <div className="flex flex-col justify-center items-center w-full transition-transform duration-500 ease-in-out transform">
+        {/* <div className="flex flex-col justify-center items-center w-full transition-transform duration-500 ease-in-out transform">
           <div className=" overflow-hidden">
             <div
               className="flex transition-transform duration-500 ease-in-out transform"
@@ -94,7 +94,7 @@ const TestimonialSlider = () => {
               ))}
 
               {hasMultipleTestimonials && (
-                <div className='hidden md:flex w-1/2'
+                <div className='hidden md:flex w-full'
                 >
                   <Testimonial testimonial={testimonials[(currentSlide + 1) % testimonials.length]} />
                 </div>
@@ -109,7 +109,7 @@ const TestimonialSlider = () => {
               </button>
             </div> 
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

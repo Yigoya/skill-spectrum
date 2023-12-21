@@ -36,12 +36,12 @@
     bottom: 0;
     left: 50%;
     width: 1220px;
-    height: 450px;
+    height: 290px;
     transform: translate(-50%,50%);
-    z-index: 100;
+    z-index: 9;
     background-color:rgb(17, 24, 39);
     color: white;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 }
 .services img {
     border-radius: 1rem 1rem 0 0;
@@ -52,3 +52,17 @@
     width: 100%;
     border-radius: 0 0 0.75rem 0.75rem;
 }
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: wrap; /* Prevents items from wrapping to the next line */
+    /* transform:translate(-50%, 50%) ; */
+    transition: transform 0.5s ease;
+  }
+
+.scroll-item {
+    flex: 0 0 auto; /* Makes items inflexible, won't grow or shrink */
+    margin-right: 2px; /* Adjust as needed for spacing between items */
+    min-width: 5px; /* Adjust as needed for the minimum width of each item */
+    
+  }
