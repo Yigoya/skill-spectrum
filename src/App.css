@@ -7,7 +7,7 @@
 }
 .landing{
     position: relative;
-    height: 80vh;
+    height: 90vh;
 }
 .platform{
     position: absolute;
@@ -36,15 +36,16 @@
     bottom: 0;
     left: 50%;
     width: 1220px;
-    height: 450px;
+    height: 290px;
     transform: translate(-50%,50%);
     z-index: 100;
     background-color:rgb(17, 24, 39);
     color: white;
-    border-radius: 2rem;
+    border-radius: .5rem;
 }
 .services img {
     border-radius: 1rem 1rem 0 0;
+    height: 130px;
 }
 
 .rgba{
