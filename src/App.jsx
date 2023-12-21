@@ -11,7 +11,6 @@ import Courses from './Courses'
 import Member from './Member'
 import TestimonialSlider from './TestimonialSlider'
 
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,7 +23,7 @@ function App() {
       <Facilities />
       <Member />
       <TestimonialSlider />
-      <Test />
+      {/* <Test2 /> */}
       <Footer />
     </>
   )
