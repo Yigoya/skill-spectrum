@@ -5,7 +5,7 @@ import Event from './Components/Event'
 function AboutUs() {
   return (
     <>
-        <div className="flex flex-col md:flex-row justify-between items-center mt-52 px-32 py-16 font-family: Roboto,  'Helvetica Neue', system-ui, Arial, sans-serif ">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-24 px-32 py-16 font-family: Roboto,  'Helvetica Neue', system-ui, Arial, sans-serif ">
             <div className="flex-1 md:mr-20 md:pr-20">
                 <div>
                     <p className='font-bold'>About Us</p>

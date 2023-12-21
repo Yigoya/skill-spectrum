@@ -24,6 +24,7 @@ function App() {
       <Facilities />
       <Member />
       <TestimonialSlider />
+      <Test />
       <Footer />
     </>
   )

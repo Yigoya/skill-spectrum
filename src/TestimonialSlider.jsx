@@ -3,19 +3,19 @@ import Testimonial from './components/Testimonial';
 
 const testimonials = [
   {
-    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-2.jpg",
+    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-3.jpg",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet, consectetur adipiscing elit.",
     author: "John Doe",
     title: "BSc, Software Engineering",
   },
   {
-    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-2.jpg",
+    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-3.jpg",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet, consectetur adipiscing elit.",
     author: "John Cina",
     title: "BSc, Software Engineering",
   },
   {
-    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-2.jpg",
+    url:"https://thepixelcurve.com/html/edubin/images/testimonial/t-3.jpg",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit rem ipsum dolor sit amet, consectetur adipiscing elit.",
     author: "John Deep",
     title: "BSc, Software Engineering",
